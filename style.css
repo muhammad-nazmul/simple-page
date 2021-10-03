@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(#0000002b, #0000002b),url("image/165459-minimalism-blue_background-graffiti-clouds-men-ladders-bucket.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    padding-top:20px;
+    box-sizing:border-box;
+    
+}
+.navbar{
+    width:100%;
+    height:60px;
+    display:flex;
+    align-items:center;
+    padding:0px 60px;
+    box-sizing:border-box;
+    background:rgba(29,33,61,0.5);
+}
+.logo{
+    width:150px;
+}
+.logo i{
+    width:30px;
+    position:relative;
+    cursor:pointer;
+    z-index:10;
+    color:white;
+    font-size:25px;
+}
+
+.menubar{
+    flex:1;
+}
+
+.menubar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0px 35px;
+    color:#fff;
+    text-decoration:none;
+    font-size:17px; 
+}
+.name h2 i{
+    padding:0 10px;
+}
+.name h2{
+    color:white;
+}
+
+.leftside{
+    width:150px;
+    height:100vh;
+    position:absolute;
+    background:rgba(29,33,61,0.5);
+    top:0;
+    padding:0;
+}
+.search{
+    display:block;
+    width:60px;
+    margin:120px auto 0;
+}
+.search i{
+    font-size:30px;
+    color:rgba(29, 29, 29, 0.521);
+}
+.navmenu{
+    width:27px;
+    display:block;
+    margin:100px auto 0;
+    text-align:center;
+}
+
+.navmenu i{
+    height:15px;
+    margin-bottom:40px;
+    font-size:20px;
+    color:#fff;
+}
+
+.question{
+    width:25px;
+    display:block;
+    margin:200px auto 0;
+    text-align:center;
+    margin-right:50px;
+    /*background:rgb(255, 255, 255);*/
+}
+.question i{
+    color:white;
+    font-size:18px; 
+}
+
+.msg_container{
+    width:600px;
+    height:280px;
+    position:absolute;
+    top:57%;
+    left:14%;
+    transform:translateY(-50%);
+    overflow:hidden;
+}
+#slider{
+    display:inline-flex;
+    transition:0.7s;
+}
+
+.ms_slider{
+    width:600px;
+    height:280px;
+}
+
+.ms_slider h1{
+    color:#fff;
+    font-weight:100;
+    margin:10 0px;
+    font-size:80px;
+}
+
+.ms_slider p{
+    color:rgb(255, 255, 255);
+    line-height:25px;
+    font-size:17px;
+}
+.ms_slider a{
+    display:inline-block;
+    padding:10px 35px;
+    background:#fff;
+    border-radius:30px;
+    font-size:17px;
+    color:#555;
+    text-decoration:none;
+    margin-top:20px;
+}
+
+.controls{
+    width:2px;
+    height:320px;
+    display:block;
+    position:absolute;
+    top:55%;
+    right:100px;
+    transform:translateY(-50%);
+    background:#c0c0c0;
+}
+#line1,#line2,#line3,#line4{
+    width:10px;
+    height:80px;
+    cursor:pointer;
+    transform:translateX(-50%);
+
+}
+#active{
+    width:5px;
+    height:80px;
+    border-radius:10px;
+    background:#fff;
+    position:absolute;
+    top:0%;
+    transform:translateX(-50%); 
+    transition:0.7s;
+    margin-left: 1px;  
+}
